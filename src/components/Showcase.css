@@ -1,0 +1,38 @@
+.showcase {
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url("../img/showcase.jpg");
+  color: #f3f3f3;
+}
+
+.showcase .showcase-text {
+  padding-bottom: 50px;
+}
+
+.showcase .showcase-text h1 {
+  font-size: 4rem;
+}
+
+.showcase .showcase-text p {
+  font-size: 2rem;
+  padding-bottom: 10px;
+}
+
+.showcase .showcase-text .showcase-btn {
+  border: 1px solid #f3f3f3;
+  border-radius: 10px;
+  color: #f3f3f3;
+  font-size: 1.3rem;
+  padding: 10px 30px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.showcase .showcase-text .showcase-btn:hover {
+  background: #fc3d21;
+  border-color: #fc3d21;
+  font-size: 1.4rem;
+  padding: 10px 40px;
+}

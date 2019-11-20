@@ -1,0 +1,11 @@
+.apod-container {
+  background: #5c9ead;
+  padding-bottom: 50px;
+}
+
+.apod-container h2 {
+  margin: 0;
+  padding: 30px;
+  color: #f3f3f3;
+  font-size: 2.2rem;
+}
