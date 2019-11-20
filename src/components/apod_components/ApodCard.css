@@ -20,5 +20,6 @@
 }
 
 .apod-card p {
-  padding: 0 20px;
+  padding: 0 50px;
+  line-height: 1.4;
 }
