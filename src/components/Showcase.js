@@ -4,7 +4,7 @@ import showcaseImg from "../img/showcase.jpg";
 import styled from "styled-components";
 
 const ShowcaseContainer = styled.div`
-  height: 80vh;
+  height: 85vh;
   display: flex;
   justify-content: center;
   align-items: center;

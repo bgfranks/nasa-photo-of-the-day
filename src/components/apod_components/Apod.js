@@ -1,7 +1,20 @@
 import React, { useState, useEffect } from "react";
 import ApodCard from "./ApodCard";
 import axios from "axios";
-import "./Apod.css";
+// import "./Apod.css";
+import styled from "styled-components";
+
+const ApodContainer = styled.div`
+  background: #a1001c;
+  padding-bottom: 50px;
+`;
+
+const ApodH2 = styled.h2`
+  margin: 0;
+  padding: 30px;
+  color: #f3f3f3;
+  font-size: 2.2rem;
+`;
 
 const Apod = () => {
   const [apodData, setApodData] = useState([]);
@@ -20,8 +33,8 @@ const Apod = () => {
   }, []);
 
   return (
-    <div className="apod-container">
-      <h2>Astronomy Picture of the Day</h2>
+    <ApodContainer>
+      <ApodH2>Astronomy Picture of the Day</ApodH2>
       <div className="apod">
         <ApodCard
           url={apodData.url}
@@ -31,7 +44,7 @@ const Apod = () => {
           date={apodData.date}
         />
       </div>
-    </div>
+    </ApodContainer>
   );
 };
 

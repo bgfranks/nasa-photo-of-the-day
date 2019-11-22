@@ -1,5 +1,5 @@
 import React from "react";
-import "./ApodCard.css";
+// import "./ApodCard.css";
 import styled from "styled-components";
 
 const ApodCardContainer = styled.div`
