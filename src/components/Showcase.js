@@ -8,7 +8,7 @@ const ShowcaseContainer = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  background: url(${showcaseImg});
+  background: url(${showcaseImg}) no-repeat center center/cover;
   color: #f3f3f3;
 `;
 
@@ -34,8 +34,8 @@ const ShowcaseBtn = styled.a`
   text-decoration: none;
   transition: 0.3s;
   &:hover {
-    background: #fc3d21;
-    border-color: #fc3d21;
+    background: #a1001c;
+    border-color: #a1001c;
     font-size: 1.4rem;
     padding: 10px 40px;
   }
