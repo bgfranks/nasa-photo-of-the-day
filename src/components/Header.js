@@ -1,6 +1,6 @@
 import React from "react";
 import logo from "../img/nasa_logo.jpeg";
-import "./Header.css";
+// import "./Header.css";
 import styled from "styled-components";
 
 const HeaderContainer = styled.div`
